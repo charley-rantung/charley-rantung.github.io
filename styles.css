@@ -106,7 +106,6 @@ ul.Edulist{
 
 button.Edubutton {
     position: relative ;
-    left: px;
     width: 60px;
     height: 25px;
     top: -60px;
@@ -118,7 +117,6 @@ ul.WElist{
 }
 button.WEbutton {
     position: relative ;
-    left: px;
     width: 60px;
     height: 25px;
     top: -60px;
@@ -130,7 +128,6 @@ ul.OElist{
 }
 button.OEbutton {
     position: relative ;
-    left: px;
     width: 60px;
     height: 25px;
     top: -60px;
@@ -142,7 +139,6 @@ ul.PUBlist{
 }
 button.PUBbutton {
     position: relative ;
-    left: px;
     width: 60px;
     height: 25px;
     top: -60px;

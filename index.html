@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="styles.css">
+    <script src='index.js'></script>
+    
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="img">
-                <img src="https://scontent-cgk1-1.xx.fbcdn.net/v/t1.0-9/13177284_467259886816869_4736393362833906294_n.jpg?_nc_cat=110&ccb=2&_nc_sid=174925&_nc_eui2=AeEf78u1X2q2jtr_xkNBr3-c8O7_dJZ_r7Xw7v90ln-vtb3XPXgQZrt4EZ2QBtgmkJYf9QKzzU6TR-IQivew8mi8&_nc_ohc=nheo16SzSnoAX9eOXz7&_nc_ht=scontent-cgk1-1.xx&oh=1e7c6f1a1c4342e897eebadda167677c&oe=5FBB812D" alt="">
+                <img src="https://scontent.fupg5-1.fna.fbcdn.net/v/t1.0-9/60448039_2310664969181436_5856435315392118784_o.jpg?_nc_cat=105&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeGDKVt31EQGuDh7FjyMDtGE5CtrWpZ9Dy_kK2taln0PL0AyHLro1IZiQ6e0YOJrAZfYA-PDd963TcOuHau3UXbq&_nc_ohc=59IExAEb9JcAX_zi0Rh&_nc_ht=scontent.fupg5-1.fna&oh=1b58f1f7fc4884a842555d59b4979841&oe=5FF2792B" alt="">
             </div>
             <div class="name">
                 <p>CURRICULUM VITAE</p>
@@ -30,18 +32,18 @@
                         
                     </ul>
                     <h2>CONTACT</h2>
-                        <div style="flex-direction: row; align-items: center;">
-                            <img src="./asset/iemail.png" alt="">
-                            <p style="display: inline;">&nbsp;rantungcharley@gmail.com</p>
-                        </div>
-                        <div style="flex-direction: row; align-items: center;">
-                            <img src="./asset/iphone.png" alt="">
-                            <p style="display: inline;">&nbsp;0823-1203-0313</p>
-                        </div>
-                        <div style="flex-direction: row; align-items: center;">
-                            <img src="./asset/ifacebook.png" alt="">
-                            <p style="display: inline;">&nbsp;fb.com/charley.rantung</p>
-                        </div>
+                    <div style="flex-direction: row; align-items: center;">
+                        <img src="./asset/iemail.png" alt="" onclick="cvClick">
+                        <p style="display: inline;">&nbsp;rantungcharley@gmail.com</p>
+                    </div>
+                    <div style="flex-direction: row; align-items: center;">
+                        <img src="./asset/iphone.png" alt="">
+                        <p style="display: inline;">&nbsp;0823-1203-0313</p>
+                    </div>
+                    <div style="flex-direction: row; align-items: center;">
+                        <img src="./asset/ifacebook.png" alt="">
+                        <p style="display: inline;">&nbsp;fb.com/charley.rantung</p>
+                    </div>
                     <h2>SKILLS</h2>
                     <div style="flex-wrap: wrap;">
                         <img style="width: 100px; height: 100px; margin: 5px;" src="./asset/pngegg.png" alt="">
@@ -54,7 +56,8 @@
             <div class="right">
                 <div class="insideright">
                     <h2>EDUCATIONS</h2>
-                    <ul>
+                    <button class="Edubutton" onclick="educlick()">Show</button>
+                    <ul class="Edulist">
                         <li>SD Perguruan Advent Palu (2005-2006)</li>
                         <li>SD Advent Olobaru (2006-2007)</li>
                         <li>SD GKST 2 Tentena (2007-2008)</li>
@@ -65,19 +68,23 @@
                         <li>Universitas Klabat: Computer Science (2017-Now)</li>
                     </ul>
                     <h2>WORK EXPERIENCE</h2>
-                    <ul>
+                    <button class="WEbutton" onclick="weclick()">Show</button>
+                    <ul class="WElist">
                         <li>Internship at PT. MultiGraha Istika Makmur - 2016</li>
                     </ul>
                     <h2>ORGANIZATION EXPERIENCE</h2>
-                    <ul>
+                    <button class="OEbutton" onclick="oeclick()">Show</button>
+                    <ul class="OElist">
                         <li>Student Association in SMK Smart Pioneer Manado (2014 - 2016)</li>
                         <li>GATE Ministry (2014-2017)</li>
                         <li>Student Association in Universitas Klabat (2019-2021)</li>
                         <li>Ikatan Mahasiswa Tadulako (2018-Now)</li>
                     </ul>
-                    <h2>PUBICATION</h2>
-                    <ul>
-                        <li>Covid Tracker: <a href="https://github.com/charley-rantung/CovidTracker">https://github.com/charley-rantung/CovidTracker</a></li>
+                    <h2>PUBLICATION</h2>
+                    <button class="PUBbutton" onclick="pubclick()">Show</button>
+                    <ul class="PUBlist">
+                        <li>Covid Tracker (React Native): <br/><a href="https://github.com/charley-rantung/CovidTracker">https://github.com/charley-rantung/CovidTracker</a></li>
+                        <li>Covid Tracker Web (React JS): <br/><a href="https://charley-rantung.github.io/covid-tracker-web">https://charley-rantung.github.io/covid-tracker-web</a></li>
                     </ul>
                 </div>
             </div>

@@ -22,7 +22,7 @@ div.header {
         flex: 1;
         align-items: center;
         justify-content: center;
-        background-color: #edf5e1;
+        background-color: #389583;
     }
         div.header div.img img {
             width:100%;
@@ -97,8 +97,58 @@ p {
 }
 
 ul {
-    margin-top: -7px;;
+    margin-top: -7px;
 }
+
+ul.Edulist{
+    display: none;
+}
+
+button.Edubutton {
+    position: relative ;
+    left: px;
+    width: 60px;
+    height: 25px;
+    top: -60px;
+    left: 440px;
+}
+
+ul.WElist{
+    display: none;
+}
+button.WEbutton {
+    position: relative ;
+    left: px;
+    width: 60px;
+    height: 25px;
+    top: -60px;
+    left: 440px;
+}
+
+ul.OElist{
+    display: none;
+}
+button.OEbutton {
+    position: relative ;
+    left: px;
+    width: 60px;
+    height: 25px;
+    top: -60px;
+    left: 440px;
+}
+
+ul.PUBlist{
+    display: none;
+}
+button.PUBbutton {
+    position: relative ;
+    left: px;
+    width: 60px;
+    height: 25px;
+    top: -60px;
+    left: 440px;
+}
+
 li {
     color: #edf5e1;
     font-family: 'Roboto', sans-serif;
